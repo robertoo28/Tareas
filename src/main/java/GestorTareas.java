@@ -13,6 +13,7 @@ public class GestorTareas {
       tareas.add(tarea1);
     }
   }
+  //Comentario de prueba
 
   public synchronized Integer obtenerTotalTareas() { // Método innecesariamente sincronizado.
     return tareas.size();
